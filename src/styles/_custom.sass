@@ -2,13 +2,23 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 30%
+    right: 10%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 5%
+    right: 40%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    left: -13%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    left: 5%
 
 
 @keyframes float1
@@ -17,3 +27,29 @@
 
   100%
     transform: translateY(0px)
+.banner-principal__img 
+  padding-bottom: 0 !important;
+.banner-principal__img img
+  width: fit-content
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+  color: $color-sistema-texto !important  
+
+.titulo-principal__numero
+    background-color: $color-acento-contenido  !important
+
+
+.banner-principal .tarjeta
+  animation: gradient-animation 5s infinite ease-in;
+ 
+
+@keyframes gradient-animation 
+    0% 
+        background:  url('../assets/curso/portada/fondo-banner-principal.svg'),linear-gradient(120deg, #FF9A09, #FFD69B);
+       
+   
+    100% 
+        background: url('../assets/curso/portada/fondo-banner-principal.svg'), linear-gradient(200deg,#FF9A09, #FFD69B);
+
+    
+.color-sistema-texto
+  color: $color-sistema-texto !important

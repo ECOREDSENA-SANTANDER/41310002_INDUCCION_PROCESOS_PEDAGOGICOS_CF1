@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Pedagogía y transformación educativa',
+    descripcionCurso:
+      'Ser docente en el contexto actual implica enfrentar desafíos complejos, pero es también una de las profesiones más gratificantes por su profundo impacto social y su contribución tanto a nivel local como global. A lo largo de esta formación, el estudiante tendrá la oportunidad de reflexionar críticamente sobre los pilares de la labor docente, que incluyen un marco epistemológico y una sólida base sociocultural.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,12 +40,12 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Concepto de "Educación"',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Políticas y leyes educativas en Colombia',
             hash: 't_1_1',
           },
         ],
@@ -45,14 +54,51 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Pedagogía, teoría y modelos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Tipos de pedagogías',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Enfoques pedagógicos. Ejemplo SENA',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: '¿Cuál es la labor de un Educador?',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: '¿Por qué ser un docente?',
+            hash: 't_3_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: '¿Quién es el estudiante? ',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Su cerebro: su aprendizaje',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Estilos de aprendizaje',
+            hash: 't_4_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -73,16 +119,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
+      /*{
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
-      },
+      },*/
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
@@ -116,12 +157,79 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Pedagogía',
+      significado:
+        'Disciplina que estudia la educación y la formación en relación con los procesos de enseñanza y aprendizaje.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Aprendizaje',
+      significado:
+        'Proceso mediante el cual un individuo adquiere conocimientos, habilidades, valores y actitudes a través de la experiencia o la enseñanza.',
+    },
+    {
+      termino: 'Motivación',
+      significado:
+        'Factor que impulsa el interés y la participación en actividades de aprendizaje, clave en el proceso pedagógico.',
+    },
+    {
+      termino: 'Competencias',
+      significado:
+        'Capacidades que permiten a un individuo desempeñarse adecuadamente en diferentes contextos, tanto a nivel profesional como personal.',
+    },
+    {
+      termino: 'Constructivismo',
+      significado:
+        'Teoría del aprendizaje que sostiene que el conocimiento se construye activamente por el individuo a través de sus experiencias y relaciones sociales.',
+    },
+    {
+      termino: 'Estilos de aprendizaje',
+      significado:
+        'Diferentes maneras en que las personas adquieren y procesan la información durante el proceso educativo.',
+    },
+    {
+      termino: 'Educación',
+      significado:
+        'Proceso mediante el cual se facilita el aprendizaje o la adquisición de conocimientos, habilidades, valores y creencias.',
+    },
+    {
+      termino: 'Cognición',
+      significado:
+        'Procesos mentales involucrados en el aprendizaje, como la percepción, la memoria y el razonamiento.',
+    },
+    {
+      termino: 'Epistemología',
+      significado:
+        'Rama de la filosofía que estudia la naturaleza y el alcance del conocimiento.',
+    },
+    {
+      termino: 'Andamiaje',
+      significado:
+        'Técnica pedagógica donde el maestro proporciona apoyo temporal al estudiante durante el aprendizaje hasta que pueda realizar la tarea de manera independiente.',
+    },
+    {
+      termino: 'Competencias laborales',
+      significado:
+        'Capacidades específicas para movilizar conocimientos y habilidades en el contexto del trabajo, buscando cumplir con estándares de calidad.',
+    },
+    {
+      termino: 'Formación integral',
+      significado:
+        'Proceso educativo que busca el desarrollo pleno del individuo, tanto en aspectos personales como técnicos y profesionales.',
+    },
+    {
+      termino: 'Educación crítica',
+      significado:
+        'Enfoque pedagógico que busca desarrollar la conciencia crítica en los estudiantes para que participen activamente en la transformación social.',
+    },
+    {
+      termino: 'Socio-constructivismo',
+      significado:
+        'Teoría que enfatiza el aprendizaje a través de la interacción social y cultural, postulando que el conocimiento se construye en un contexto comunitario.',
+    },
+    {
+      termino: 'Proyecto educativo',
+      significado:
+        'Metodología de enseñanza en la que los estudiantes adquieren conocimientos a través de la resolución de problemas y el desarrollo de proyectos prácticos.',
     },
   ],
   referencias: [
@@ -136,13 +244,13 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
-          centro: 'Dirección General',
+          cargo: 'Responsable del ecosistema',
+          centro: 'Dirección general',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -150,9 +258,21 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Diana Rocío Possos Beltrán',
+          cargo: 'Experta temática',
+          centro:
+            'Equipo de Adecuación Didáctica y Gráfica de Recursos Educativos - Regional Risaralda',
+        },
+        {
+          nombre: 'Didier Andrés Ospina Osorio',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Equipo de Adecuación Didáctica y Gráfica de Recursos Educativos - Regional Risaralda',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora instruccional ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -160,24 +280,24 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
+          cargo: 'Diseñador web',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Lizeth Karina Manchego Suarez',
+          cargo: 'Desarrolladora <i>full-stack</i>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Desarrolladora <i>full-stack</i> junior',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animadora y productora multimedia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -185,24 +305,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: '--',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
