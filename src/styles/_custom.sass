@@ -53,3 +53,134 @@
     
 .color-sistema-texto
   color: $color-sistema-texto !important
+
+.bg1
+  background-color: #CBFAF4
+.bg2
+  background-color: #CBFAF4
+  padding: 5px 30px
+  width: fit-content
+  text-align: center
+.bg3
+  background-color: #FFF3F1
+  padding: 25px 20px
+.bg4
+    background: #fff
+    border-radius: 30px
+.bgimg1
+  background-image: url('../assets/curso/temas/tema1/img10.svg');
+  background-repeat: no-repeat
+  background-position: center 
+  background-color: $color-secundario
+  padding: 20px
+  border-radius: 10px
+.bgimg2
+    background-image: url('../assets/curso/temas/tema1/img14.svg') !important;
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center 
+    border-radius: 20px
+    height: 380px
+    display: flex
+    justify-content: center
+    align-content: center
+    align-items: center
+.br1
+  padding: 10px 20px
+  border: 2px solid $color-secundario
+
+.img-bloque
+  width: 56.5%;
+  position: relative;
+  top: -45px;
+  margin: auto;
+
+.w-10
+  width: 10%
+
+/*CUSTOM COMPONENTS*/
+.lista-ul--color.color-secundario li > i:first-of-type
+    color: $color-secundario;
+.bloque-texto-b.color-acento-botones:before 
+    background-color: #CBFAF4;
+.bloque-texto-b:before 
+    top: 10%;
+    bottom: 25%;
+.bloque-texto-f__comillas i.color-primario
+    color: $color-primario;
+.cajon.color-acento-botones
+    background-color: $color-adicional-1
+.cajon.color-acento-botones:before 
+    background-color: $color-acento-botones;
+.cajon.color-acento-contenido 
+    background-color: #FEDBD5;
+
+.slyder-f__btn i  
+  border-radius: 50%;
+  background: $color-acento-botones;
+  font-size: 30px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  z-index: 1;
+  color: $color-sistema-texto
+
+
+/*Media Queries*/  
+//// DESKTOP SMALL 1400--------------------------------------
+@media screen and (max-width: $bp-min-xxl)
+  .mb-cus
+    margin-bottom: 2em  !important 
+  .img-bloque
+    width: 75%;
+  .bgimg2 
+    height: auto;
+    display: block;
+
+//// TABLET 992--------------------------------------
+@media screen and (max-width: $bp-max-md)
+  .mb-cus
+    margin-bottom: 2em  !important  
+  .h-card
+    height: auto;
+  .bloque-texto-g
+    padding-top: 20px !important;
+  .tarjeta--container > .tarjeta:first-child,
+  .tarjeta--container > .tarjeta:last-child
+    border-radius: 20px !important
+  .bgimg2 
+    height: auto;
+    display: block;
+
+//// TABLET MINI 768--------------------------------------
+@media screen and (max-width: $bp-min-md)
+  .mb-cus
+    margin-bottom: 2em  !important  
+  .h-card
+    height: auto;
+  .bloque-texto-g
+    padding-top: 20px !important;
+  .tarjeta--container > .tarjeta:first-child,
+  .tarjeta--container > .tarjeta:last-child
+    border-radius: 20px !important
+  .bgimg2 
+    height: auto;
+    display: block;
+
+
+//// MOBILE 576--------------------------------------
+@media screen and (max-width: $bp-min-sm)
+  .mb-cus
+    margin-bottom: 2em  !important
+  .h-card
+    height: auto;
+  .bloque-texto-g
+    padding-top: 20px !important;
+  .tarjeta--container > .tarjeta:first-child,
+  .tarjeta--container > .tarjeta:last-child
+    border-radius: 20px !important
+  .bgimg2 
+    height: auto;
+    display: block;
+  
