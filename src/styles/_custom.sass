@@ -67,6 +67,10 @@
 .bg4
     background: #fff
     border-radius: 30px
+.bg5
+  background-color: #FCB071
+.bg6
+    background: #FFF3F1
 .bgimg1
   background-image: url('../assets/curso/temas/tema1/img10.svg');
   background-repeat: no-repeat
@@ -85,6 +89,28 @@
     justify-content: center
     align-content: center
     align-items: center
+.bgimg4
+    background-image: url('../assets/curso/temas/tema2/img2.svg') !important;
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: left 
+    width: fit-content
+    padding: 5px 20px
+.bgimg5
+    background-image: url('../assets/curso/temas/tema2/img2.svg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: fit-content;
+    padding: 0px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+.bgimg6
+    background-image: url('../assets/curso/temas/tema2/img9.svg') !important;
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center 
+    height: 350px !important
 .br1
   padding: 10px 20px
   border: 2px solid $color-secundario
@@ -97,7 +123,16 @@
 
 .w-10
   width: 10%
-
+.pr-0-cus
+  padding-right: 0 !important
+.pl-cus
+  padding-left: 65px
+.br-0
+  border-radius: 0 !important
+.list-icons
+  display: flex
+  flex-direction: row
+  justify-content: space-between
 /*CUSTOM COMPONENTS*/
 .lista-ul--color.color-secundario li > i:first-of-type
     color: $color-secundario;
@@ -126,6 +161,30 @@
   z-index: 1;
   color: $color-sistema-texto
 
+.lista-ol--cuadro__vineta 
+    width: 24px;
+    color: $color-sistema-texto
+    border-radius: 24px
+    font-weight: bold
+.lista-ol--separador li, .lista-ul--separador li 
+    border-bottom: solid 1px $color-secundario !important
+.tarjeta--container.card-cus > .tarjeta:last-child    
+  border-radius: 0 !important
+.tarjeta.color-adicional-1
+  background-color: $color-adicional-1
+.tarjeta--orange
+  background-color: #FFEBC1 !important
+.tarjeta--orange.acordion__activo
+  background-color: #FEE7D4 !important
+.acordion__accion__btn--a
+  background-color: #92E8DB
+  color: $color-sistema-texto !important
+
+
+
+
+
+
 
 /*Media Queries*/  
 //// DESKTOP SMALL 1400--------------------------------------
@@ -152,6 +211,9 @@
   .bgimg2 
     height: auto;
     display: block;
+  .list-icons
+    flex-direction: column
+    justify-content: start
 
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
@@ -183,4 +245,9 @@
   .bgimg2 
     height: auto;
     display: block;
-  
+  .bgimg4
+    background-size: cover 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  .w-img-cus
+    width: 75%
