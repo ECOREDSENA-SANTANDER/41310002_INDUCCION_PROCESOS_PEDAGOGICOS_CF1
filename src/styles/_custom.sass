@@ -78,6 +78,7 @@
   background-color: $color-secundario
   padding: 20px
   border-radius: 10px
+  background-size: cover
 .bgimg2
     background-image: url('../assets/curso/temas/tema1/img14.svg') !important;
     background-size: cover
@@ -132,8 +133,38 @@
 .list-icons
   display: flex
   flex-direction: row
-  justify-content: space-between
+  justify-content: space-around
+
+
 /*CUSTOM COMPONENTS*/
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #FDC3B9
+  border-radius: 10px
+.linea-tiempo-d__item__number.tarjeta.tarjeta--gris,
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #CBFAF4
+  border-radius: 10px
+.linea-tiempo-d__item__dots:after
+    border-left: 5px dotted #FC8775;
+.linea-tiempo-d__item__content__title
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto !important
+.tabs-c__tab.tabs-c__tab--active span
+  font-weight: bold
+.tabs-c__tab 
+    border-bottom: 4px solid $color-secundario
+    
+.tabs-c
+    border-bottom: 0;
+.tabs-c__content-item
+  background-color: #FEEEE2
+  position: relative;
+  top: -15px;
+  z-index: 0;
+.tabs-c.color-acento-contenido .tabs-c__tab--active
+  z-index: 1;
+
 .lista-ul--color.color-secundario li > i:first-of-type
     color: $color-secundario;
 .bloque-texto-b.color-acento-botones:before 
