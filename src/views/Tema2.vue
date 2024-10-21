@@ -145,20 +145,20 @@
         img(src='@/assets/curso/temas/tema2/img12.png', alt='')
       .col-sm-12.col-lg-9
         AcordionA.mb-0(tipo="a" clase-tarjeta="tarjeta tarjeta--orange")
-          .row(titulo="a)	Aprendizaje en comunidad")
+          .row(titulo="Aprendizaje en comunidad")
             .col-sm-12.col-lg-12.pl-cus
               p.mb-0 El aprendizaje ocurre tanto a nivel individual como dentro de una comunidad.
 
-          .row(titulo="b)	Funciones mentales")
+          .row(titulo="Funciones mentales")
             .col-sm-12.col-lg-12.pl-cus
               p.mb-0 Existen funciones mentales inferiores y superiores. Las inferiores, genéticamente determinadas, responden a estímulos del entorno, mientras que las superiores se desarrollan a través de la interacción social, donde la cultura juega un papel central en la adquisición de conocimientos.
-          .row(titulo="c)	Proceso social e individual")
+          .row(titulo="Proceso social e individual")
             .col-sm-12.col-lg-12.pl-cus
               p.mb-0 El conocimiento se forma primero como un proceso social y luego se internaliza a nivel individual.
-          .row(titulo="d)	Uso de símbolos y herramientas")
+          .row(titulo="Uso de símbolos y herramientas")
             .col-sm-12.col-lg-12.pl-cus
               p.mb-0 Los sistemas simbólicos como los números y la escritura facilitan el desarrollo cognitivo, actuando como puentes entre las funciones mentales inferiores y superiores.
-          .row(titulo="e)	Andamiaje")
+          .row(titulo="Andamiaje")
             .col-sm-12.col-lg-12.pl-cus
               p.mb-0 El aprendizaje se construye sobre conocimientos previos, permitiendo el crecimiento intelectual mediante la incorporación de nueva información.
 

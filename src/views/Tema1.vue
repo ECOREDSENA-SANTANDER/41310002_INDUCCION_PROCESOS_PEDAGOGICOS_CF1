@@ -12,7 +12,7 @@
         img.img-bloque.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img1.png', alt='')
         
       .bloque-texto-g__texto.p-4
-        p.mb-3 En esta primera parte del tema, se organizará en dos apartados claramente definidos, cada uno enfocado en aspectos esenciales para una comprensión integral de los contenidos.
+        p.mb-3 En esta primera parte del tema, se organizará en dos apartados claramente definidos, cada uno enfocado en aspectos esenciales para una comprensión integral de los contenidos. 
         p.mb-0 En el primer apartado, se explorarán los conceptos teóricos y prácticos que fundamentan el marco general de la educación. En el segundo apartado, se profundizará en las teorías pedagógicas que orientan la labor docente, brindando al estudiante herramientas y conocimientos clave para desarrollar una visión crítica y fundamentada de su rol como educador; de esta manera, se asegurará un enfoque integral que conecte tanto la teoría como la práctica en el ejercicio de la enseñanza.
 
     .tarjeta--container.row.mb-5

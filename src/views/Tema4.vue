@@ -20,23 +20,18 @@
       .col-sm-12.col-lg-7
         TabsA.color-acento-botones
           .tarjeta.color-adicional-2.p-4(titulo="Discípulo")
-            h4 Discípulo
             p.mb-0 La palabra “discípulo” proviene del latín discipulus, que significa “aprendiz”. Se refiere a una persona que aprende una doctrina, ciencia o arte bajo la guía de un maestro, y sigue las enseñanzas de una escuela, incluso si su tiempo de vida es posterior a la de sus maestros. Se caracteriza por una motivación intrínseca para aprender. Los maestros tienen discípulos.
 
           .tarjeta.color-adicional-2.p-4(titulo="Estudiante")
-            h4 Estudiante
             p.mb-0 El término “estudiante” es el más común para referirse a un educando. Viene del latín studium y se refiere a la persona que asiste a un lugar específico para aprender. Con el surgimiento de las escuelas, aparecieron los estudiantes. Los profesores tienen estudiantes.
 
           .tarjeta.color-adicional-2.p-4(titulo="Discente")
-            h4 Discente
             p.mb-0 Similar a “discípulo”, el término “discente” también proviene del latín discere (aprender), pero surgió más tarde, con la aparición de los primeros docentes. Se refiere a una persona que recibe enseñanza formal en una institución educativa. Los docentes tienen discentes.
 
           .tarjeta.color-adicional-2.p-4(titulo="Aprendiz")
-            h4 Aprendiz
             p.mb-0 La palabra “aprendiz” deriva del castellano antiguo aprendriz y del latín tardío apprendere. Se refiere a quien aprende un arte u oficio con el objetivo de desempeñarse en una profesión o trabajo. Los instructores tienen aprendices.
 
           .tarjeta.color-adicional-2.p-4(titulo="Alumno")
-            h4 Alumno
             p.mb-0  “Alumno” es una palabra controvertida. Anteriormente, se creía que provenía del latín lumen (luz) y el prefijo “a” (sin), lo que sugería que significaba “persona sin luz”. Sin embargo, estudios recientes desmienten esta interpretación. Actualmente, se acepta que “alumno” proviene de alere (alimentar, fortalecer), lo que lo define como alguien que se alimenta constantemente de conocimiento.
       .col-sm-12.col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema4/img2.png')

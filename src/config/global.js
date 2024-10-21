@@ -119,11 +119,16 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      /*{
+      {
+        nombreRuta: 'complementario',
+        icono: 'far fa-folder-open',
+        titulo: 'Material complementario',
+      },
+      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
-      },*/
+      },
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
@@ -143,16 +148,19 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Pedagogía, teoría y modelo',
+      referencia:
+        'Janneth Medicis. (2012, 16 noviembre). Pedagogía y educacion',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=UcBZW7jXFdk',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Pedagogía, teoría y modelos',
+      referencia:
+        'Ortega Esteban, J. (2005). Pedagogía social y pedagogía escolar: la educación social en la escuela. Revista de educación.',
+      tipo: 'PDF',
+      link:
+        'https://redined.educacion.gob.es/xmlui/bitstream/handle/11162/68009/00820053000185.pdf?sequence=1',
     },
   ],
   glosario: [
@@ -234,8 +242,47 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Arias, N. (2011). Diferencia entre enfoque, corriente y modelo pedagógico. Bogotá: UMNG.',
+    },
+    {
+      referencia: 'Arias, N. (2011). Teorías pedagógicas. Bogotá: UMNG.',
+    },
+    {
+      referencia:
+        'Barnett, R. (2001). Los límites de la competencia. Barcelona: Editorial Gedisa.',
+    },
+    {
+      referencia:
+        'De Zubiría, J. (2007). Los modelos pedagógicos. Popayán: Instituto Alberto Merani.',
+    },
+    {
+      referencia:
+        'Freire, P. (2009). Pedagogía del Oprimido. Primera Edición 1970. México: Siglo xxi.',
+    },
+    {
+      referencia:
+        'Gaitán, C. (2008). Aproximación a las relaciones entre cultura y educación. Caracas: Corporación Fe y Alegría.',
+    },
+    {
+      referencia:
+        'Gaitán, C. (2008). Práctica reflexiva e investigación, en GAITÁN, C. y otros. Reflexiones en torno a la cultura, la práctica pedagógica y el aprendizaje del estudiante universitario. Bogotá: Pontificia Universidad Javeriana, Facultad de Educación.',
+    },
+    {
+      referencia:
+        'Morin, E. (2008). Planetarización y crisis de la humanidad. En Revista 2001 Educación. N. 152. Enero 2008. México.',
+    },
+    {
+      referencia:
+        'Osorio, M. (2011). El rol del educador, la pedagogía y un recorrido por las diferentes épocas sociohistóricas de la humanidad. Bogotá: UMNG.',
+    },
+    {
+      referencia:
+        'Osorio, M. (2011). Reflexiones sobre educación, pedagogía y formación: Palimpsesto de muchos con letra propia. Bogotá: UMNG.',
+    },
+    {
+      referencia:
+        'Páez, D. L. (2012). El modelo pedagógico de la formación profesional integral en el enfoque para el desarrollo de competencias y el aprendizaje por proyectos. SENA.',
     },
   ],
   creditos: [
@@ -310,7 +357,7 @@ export default {
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: '--',
+          nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
