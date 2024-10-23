@@ -292,6 +292,15 @@ export default {
       referencia:
         'Páez, D. L. (2012). El modelo pedagógico de la formación profesional integral en el enfoque para el desarrollo de competencias y el aprendizaje por proyectos. SENA.',
     },
+    {
+      referencia:
+        'Cambiando paradigmas. Traducción del original: Changing paradigms. (2010).',
+      link: 'http://www.youtube.com/watch?v=Z78aaeJR8no',
+    },
+    {
+      referencia: '¿Qué es el plan estratégico del SENA? (2012).',
+      link: 'https://youtu.be/USB_9Vs1YvY',
+    },
   ],
   creditos: [
     {
