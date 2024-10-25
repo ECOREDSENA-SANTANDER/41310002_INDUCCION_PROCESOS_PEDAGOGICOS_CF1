@@ -112,6 +112,7 @@
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1  Tipos de pedagogías
+    p.mb-5 A continuación, se describen algunos de los tipos de pedagogía más relevantes:  
     .bgimg5.mb-5
       h3.py-1 Pedagogías cognitivas
     p.mb-5 Adquieren gran relevancia al enfocarse en el aprendizaje y los procesos neurológicos que intervienen en el acto de aprender. Surgidas tras el conductismo, estas pedagogías se centran en los procesos mentales del aprendiz, comparándolos con los de un ordenador; este paradigma, influenciado por teorías como el procesamiento de la información y el psicoanálisis, prioriza el aprendizaje y la capacidad del estudiante para procesar y dar significado a la información. Su enfoque constructivista ha dejado un legado importante en la educación actual, destacando conceptos clave como:

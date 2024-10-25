@@ -145,7 +145,7 @@
                     img(src='@/assets/curso/temas/tema1/img15.svg', alt='')
 
                   .col-sm-12.col-lg-7
-                    p.mb-0 El Plan Decenal de Educación 2006-2016, recoge las políticas para impulsar las transformaciones necesarias en la educación colombiana.
+                    p.mb-0 El Plan Decenal de Educación (PNDE) 2016-2026, es una estrategia que continúa las políticas del plan anterior, 2006 a 2016, con el objetivo de mejorar la calidad y equidad en la educación. Se centra en garantizar el acceso, fortalecer los aprendizajes, impulsar la innovación pedagógica, apoyar a los docentes y vincular la educación con el mundo laboral. Además, está alineado con los Objetivos de Desarrollo Sostenible (ODS), promoviendo una educación inclusiva y de calidad para enfrentar los desafíos del país en un contexto global cada vez más complejo. 
               
               .p-5.my-0.h-card
                 .row.justify-content-center.align-items-center.mb-0

@@ -79,7 +79,7 @@ export default {
         {
           id: 4,
           texto:
-            'El término educación proviene del latín “educare”, que significa:',
+            'El término educación proviene del latín “<i>educare</i>”, que significa:',
           imagen: require('@/assets/componentes/img4.png'),
           barajarRespuestas: true,
           opciones: [

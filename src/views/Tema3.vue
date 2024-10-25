@@ -128,7 +128,7 @@
             li.d-flex
               i.fas.fa-chalkboard-teacher
               span ¿Considera que esto podría estar relacionado con el llamado malestar docente?
-    p.mb-3 Después de reflexionar desde su rol como docente, encontrará a continuación siete tipos de docentes. 
+    p.mb-3 Después de reflexionar desde su rol como docente, encontrará a continuación seis tipos de docentes.
     p.mb-5 Reconózcalos y reflexione sobre cuál se asemeja más a su estilo docente.
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-8
@@ -147,7 +147,7 @@
 
           .row(numero="4" titulo="Investigador: en búsqueda de la transformación social")
             .col-sm-12.col-lg-12
-              p.mb-0 El docente que busca la transformación social debe ser un investigador y académico activo y reflexivo, capaz de generar propuestas e investigaciones pedagógicas y sociales que impulsen cambios constantes, convirtiendo a la escuela en un espacio de producción intelectual; por tanto la escuela debe ser un lugar donde se fomente la investigación, el análisis y la creación de conocimientos, tanto en el ámbito educativo como científico, consolidándose como un eje de transformación social. Aunque la investigación científica requiere rigurosidad y seriedad, la observación del entorno puede ser el primer paso para identificar problemas relevantes y buscar soluciones que contribuyan al mejoramiento social.
+              p.mb-0 El docente que busca la transformación social debe ser un investigador y académico activo y reflexivo, capaz de generar propuestas e investigaciones pedagógicas y sociales que impulsen cambios constantes, convirtiendo a la escuela en un espacio de producción intelectual; por tanto, la escuela debe ser un lugar donde se fomente la investigación, el análisis y la creación de conocimientos, tanto en el ámbito educativo como científico, consolidándose como un eje de transformación social. Aunque la investigación científica requiere rigurosidad y seriedad, la observación del entorno puede ser el primer paso para identificar problemas relevantes y buscar soluciones que contribuyan al mejoramiento social.
 
           .row(numero="5" titulo="Crítico-Reflexivo: en praxis constante de su diario que hacer")
             .col-sm-12.col-lg-12
