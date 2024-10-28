@@ -155,7 +155,7 @@
                   .col-sm-12.col-lg-7
                     p.mb-0 La Ley 119 de 1994, reorganiza el SENA, definiendo su misión, objetivos y funciones, enfocándose en la formación para el trabajo y el desarrollo humano.
     .cajon.color-acento-contenido.p-4.mb-4
-      p.mb-0 Las leyes 115 y 119 de 1994 regulan la educación pública y el SENA en Colombia, mientras que el Plan Decenal 2006-2016 establece políticas para transformar el sistema educativo.
+      p.mb-0 Las leyes 115 y 119 de 1994 regulan la educación pública y el SENA en Colombia, mientras que el Plan Decenal de Educación (PNDE) 2016-2026 establece políticas para transformar el sistema educativo.
 
 
 
