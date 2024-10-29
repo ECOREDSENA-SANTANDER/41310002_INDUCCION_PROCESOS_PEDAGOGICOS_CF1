@@ -29,7 +29,7 @@
             p.mb-0 Similar a “discípulo”, el término “discente” también proviene del latín #[i discere] (aprender), pero surgió más tarde, con la aparición de los primeros docentes. Se refiere a una persona que recibe enseñanza formal en una institución educativa. Los docentes tienen discentes.
 
           .tarjeta.color-adicional-2.p-4(titulo="Aprendiz")
-            p.mb-0 La palabra “aprendiz” deriva del castellano antiguo aprendriz y del latín #[i tardío apprendere]. Se refiere a quien aprende un arte u oficio con el objetivo de desempeñarse en una profesión o trabajo. Los instructores tienen aprendices.
+            p.mb-0 La palabra “aprendiz” deriva del castellano antiguo #[i aprendriz] y del latín tardío #[i  apprendere]. Se refiere a quien aprende un arte u oficio con el objetivo de desempeñarse en una profesión o trabajo. Los instructores tienen aprendices.
 
           .tarjeta.color-adicional-2.p-4(titulo="Alumno")
             p.mb-0  “Alumno” es una palabra controvertida. Anteriormente, se creía que provenía del latín #[i lumen] (luz) y el prefijo “a” (sin), lo que sugería que significaba “persona sin luz”. Sin embargo, estudios recientes desmienten esta interpretación. Actualmente, se acepta que “alumno” proviene de #[i alere] (alimentar, fortalecer), lo que lo define como alguien que se alimenta constantemente de conocimiento.
