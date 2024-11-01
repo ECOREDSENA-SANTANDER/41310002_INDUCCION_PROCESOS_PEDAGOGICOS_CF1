@@ -56,7 +56,6 @@
               p Paulo Freire
             .align-content-end.mb-2
               i.fas.fa-quote-right
-    p.text-center.mb-5 Los desafíos sociales y éticos que enfrenta la humanidad son profundos y destructivos.
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema1/img4.png')
@@ -65,6 +64,7 @@
           .col-sm-12.col-lg-2.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img5.svg')
           .col-sm-12.col-lg-10
+            p.mb-3 Los desafíos sociales y éticos que enfrenta la humanidad son profundos y destructivos.
             p.mb-0 Si bien el aula no puede cambiar el mundo de manera instantánea, tiene el potencial de ser un espacio donde se inicien pequeñas transformaciones, sí, pueden fomentar en los estudiantes una mayor empatía y respeto hacia los demás, independiente de sus diferencias o cosmovisiones, por tanto se propone, que el acto educativo no sea visto como un proceso lineal ni determinista, sino como un fenómeno dinámico y transformador, capaz de adaptarse a la complejidad del entorno y las interacciones humanas.
         .br1
           p.mb-0 En este sentido, la educación se convierte en una herramienta poderosa para la transformación de una humanidad en crisis. Como señala el filósofo y sociólogo Edgar Morin (2008):
@@ -89,7 +89,7 @@
           h5 Figura 1.
           span
             |  Concepto de educación
-        img(src='@/assets/curso/temas/tema1/img8.svg', alt='El concepto de educación se presenta en un diagrama que relaciona varias ideas clave. Primero, se menciona que el término “educación” puede variar según el contexto histórico y cultural, lo que dificulta una definición única y normativa. En segundo lugar, se destaca su origen en el término latino educare, que significa “criar” o “nutrir”, reflejando su función esencial. Luego, se explica que la educación ayuda al ser humano a adaptarse a su entorno social, cultural y familiar, favoreciendo su desarrollo y supervivencia. Finalmente, se resalta que la educación busca guiar y potenciar las capacidades internas del individuo, promoviendo su crecimiento integral.')
+        img(src='@/assets/curso/temas/tema1/img8.svg', alt='El concepto de educación se presenta en un diagrama que relaciona varias ideas clave. Primero, se menciona que el término "educación" puede variar según el contexto histórico y cultural, lo que dificulta una definición única y normativa. En segundo lugar, se destaca su origen en el término latino educare, que significa "criar" o "nutrir", reflejando su función esencial. Luego, se explica que la educación ayuda al ser humano a adaptarse a su entorno social, cultural y familiar, favoreciendo su desarrollo y supervivencia. Finalmente, se resalta que la educación busca guiar y potenciar las capacidades internas del individuo, promoviendo su crecimiento integral. ')
     .row.justify-content-center.mb-5
       .col-lg-12
         .cajon.color-acento-botones.px-5.py-4
@@ -137,7 +137,7 @@
                     img(src='@/assets/curso/temas/tema1/img15.svg', alt='')
 
                   .col-sm-12.col-lg-7
-                    p.mb-0 La Ley 115 de 1994, regula la educación pública formal en Colombia, definiendo su propósito, a quién se dirige, y los objetivos que busca alcanzar. Establece la estructura de la educación formal, los niveles educativos y los contenidos de la enseñanza obligatoria, adaptándose a las necesidades de diferentes grupos poblacionales, como grupos étnicos, adultos y niños.
+                    p.mb-0 #[b La Ley 115 de 1994], regula la educación pública formal en Colombia, definiendo su propósito, a quién se dirige, y los objetivos que busca alcanzar. Establece la estructura de la educación formal, los niveles educativos y los contenidos de la enseñanza obligatoria, adaptándose a las necesidades de diferentes grupos poblacionales, como grupos étnicos, adultos y niños.
 
               .p-5.my-0.h-card
                 .row.justify-content-center.align-items-center.mb-0
@@ -145,7 +145,7 @@
                     img(src='@/assets/curso/temas/tema1/img15.svg', alt='')
 
                   .col-sm-12.col-lg-7
-                    p.mb-0 El Plan Decenal de Educación (PNDE) 2016-2026, es una estrategia que continúa las políticas del plan anterior, 2006 a 2016, con el objetivo de mejorar la calidad y equidad en la educación. Se centra en garantizar el acceso, fortalecer los aprendizajes, impulsar la innovación pedagógica, apoyar a los docentes y vincular la educación con el mundo laboral. Además, está alineado con los Objetivos de Desarrollo Sostenible (ODS), promoviendo una educación inclusiva y de calidad para enfrentar los desafíos del país en un contexto global cada vez más complejo. 
+                    p.mb-0 #[b El Plan Decenal de Educación (PNDE) 2016-2026], es una estrategia que continúa las políticas del plan anterior, 2006 a 2016, con el objetivo de mejorar la calidad y equidad en la educación. Se centra en garantizar el acceso, fortalecer los aprendizajes, impulsar la innovación pedagógica, apoyar a los docentes y vincular la educación con el mundo laboral. Además, está alineado con los Objetivos de Desarrollo Sostenible (ODS), promoviendo una educación inclusiva y de calidad para enfrentar los desafíos del país en un contexto global cada vez más complejo. 
               
               .p-5.my-0.h-card
                 .row.justify-content-center.align-items-center.mb-0
@@ -153,9 +153,9 @@
                     img(src='@/assets/curso/temas/tema1/img15.svg', alt='')
 
                   .col-sm-12.col-lg-7
-                    p.mb-0 La Ley 119 de 1994, reorganiza el SENA, definiendo su misión, objetivos y funciones, enfocándose en la formación para el trabajo y el desarrollo humano.
+                    p.mb-0 #[b La Ley 119 de 1994], reorganiza el SENA, definiendo su misión, objetivos y funciones, enfocándose en la formación para el trabajo y el desarrollo humano.
     .cajon.color-acento-contenido.p-4.mb-4
-      p.mb-0 Las leyes 115 y 119 de 1994 regulan la educación pública y el SENA en Colombia, mientras que el Plan Decenal de Educación (PNDE) 2016-2026 establece políticas para transformar el sistema educativo.
+      p.fw-bold.mb-0 Las leyes 115 y 119 de 1994 regulan la educación pública y el SENA en Colombia, mientras que el Plan Decenal de Educación (PNDE) 2016-2026 establece políticas para transformar el sistema educativo.
 
 
 

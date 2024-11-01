@@ -164,7 +164,7 @@
               p.mb-0 El aprendizaje se construye sobre conocimientos previos, permitiendo el crecimiento intelectual mediante la incorporación de nueva información.
 
     .cajon.color-acento-botones.p-4.mb-4
-      p.mb-0 El socio constructivismo destaca el papel crucial de la interacción social y la cultura en el aprendizaje, subrayando la importancia del contexto comunitario y cultural en el desarrollo intelectual.
+      p.fw-bold.mb-0 El socio constructivismo destaca el papel crucial de la interacción social y la cultura en el aprendizaje, subrayando la importancia del contexto comunitario y cultural en el desarrollo intelectual.
     .bgimg4.mb-3
       h3.pt-3 Pedagogías críticas. Responsabilidad social con mi entorno
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
@@ -172,8 +172,8 @@
         img.img-bloque.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img14.png', alt='')
         
       .bloque-texto-g__texto.p-4
-        p.mb-0 Las pedagogías críticas buscan formar ciudadanos comprometidos, solidarios, reflexivos y con conciencia crítica sobre su entorno político. Aunque este enfoque aún está en desarrollo, su objetivo es educar individuos capaces de asumir un papel activo y responsable en la construcción de su sociedad. Las tecnologías y el acceso masivo a la información demandan sujetos que tomen decisiones responsables para contribuir al desarrollo de su país. Los docentes son fundamentales en este proceso, por lo que mejorar la calidad educativa y promover una formación crítica requiere políticas integrales que fortalezcan el vínculo entre sociedad, escuela, docentes y estudiantes, evitando culpar a una sola parte del proceso educativo. 
-    p.mb-5 En Colombia, los movimientos estudiantiles y la colaboración social están impulsando reformas que consolidan un crecimiento económico, social y humano bajo un marco democrático.
+        p.mb-3 Las pedagogías críticas buscan formar ciudadanos comprometidos, solidarios, reflexivos y con conciencia crítica sobre su entorno político. Aunque este enfoque aún está en desarrollo, su objetivo es educar individuos capaces de asumir un papel activo y responsable en la construcción de su sociedad. Las tecnologías y el acceso masivo a la información demandan sujetos que tomen decisiones responsables para contribuir al desarrollo de su país. Los docentes son fundamentales en este proceso, por lo que mejorar la calidad educativa y promover una formación crítica requiere políticas integrales que fortalezcan el vínculo entre sociedad, escuela, docentes y estudiantes, evitando culpar a una sola parte del proceso educativo. 
+        p.mb-0 En Colombia, los movimientos estudiantiles y la colaboración social están impulsando reformas que consolidan un crecimiento económico, social y humano bajo un marco democrático.
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2  Enfoques pedagógicos. Ejemplo SENA
