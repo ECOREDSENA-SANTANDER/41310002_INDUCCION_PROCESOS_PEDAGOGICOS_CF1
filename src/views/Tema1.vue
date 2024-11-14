@@ -64,8 +64,7 @@
           .col-sm-12.col-lg-2.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img5.svg')
           .col-sm-12.col-lg-10
-            p.mb-3 Los desafíos sociales y éticos que enfrenta la humanidad son profundos y destructivos.
-            p.mb-0 Si bien el aula no puede cambiar el mundo de manera instantánea, tiene el potencial de ser un espacio donde se inicien pequeñas transformaciones, sí, pueden fomentar en los estudiantes una mayor empatía y respeto hacia los demás, independiente de sus diferencias o cosmovisiones, por tanto se propone, que el acto educativo no sea visto como un proceso lineal ni determinista, sino como un fenómeno dinámico y transformador, capaz de adaptarse a la complejidad del entorno y las interacciones humanas.
+            p.mb-0 Los desafíos sociales y éticos que enfrenta la humanidad son profundos y destructivos. Si bien el aula no puede cambiar el mundo de manera instantánea, tiene el potencial de ser un espacio donde se inicien pequeñas transformaciones, sí, pueden fomentar en los estudiantes una mayor empatía y respeto hacia los demás, independiente de sus diferencias o cosmovisiones, por tanto, se propone que el acto educativo no sea visto como un proceso lineal ni determinista, sino como un fenómeno dinámico y transformador, capaz de adaptarse a la complejidad del entorno y las interacciones humanas.
         .br1
           p.mb-0 En este sentido, la educación se convierte en una herramienta poderosa para la transformación de una humanidad en crisis. Como señala el filósofo y sociólogo Edgar Morin (2008):
     .bloque-texto-f.color-acento-botones.pt-4.px-5.mb-5
